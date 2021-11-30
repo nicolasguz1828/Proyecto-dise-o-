@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+{% extends "layout.html" %}
+
+{% block content %}
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Capacidad</th>
+        <th scope="col">Sano</th>
+        <th scope="col">Enfermo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Vital</td>
+        <td>Entre 5</td>
+        <td>Mayor que 7</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Pulmonar total</td>
+        <td>Entre 545</td>
+        <td>Mayor que 435</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Inspiratoria</td>
+        <td>Entre 545</td>
+        <td>Mayor que 435</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Residual funcional</td>
+        <td>Entre 545</td>
+        <td>Mayor que 435</td>
+      </tr>  
+    </tbody>
+  </table>
+<body>
+<p>Nota: Valores tomados en mililitros</p>
+
+</body>
+{% endblock %}
