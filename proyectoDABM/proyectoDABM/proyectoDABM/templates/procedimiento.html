@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Aquí se hacen procedimientos</h1>
+
+
+
+<p><A HREF="/VC"> Capacidad vital </A></p>
+<p><A HREF="/IC"> Capacidad inspiratoria </A></p>
+<p><A HREF="/TLC"> Capacidad pulmonar total </A></p>
+<p><A HREF="/FRC"> Capacidad residual funcional </A></p>
+
+<img alt="Capacidad pulmonar" height="automatic" src="{{ url_for('static', filename='vc.jpg') }}" width="automatic">
+
+
+{% endblock %}

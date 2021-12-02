@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+{% extends "layout.html" %}
+
+
+{% block content %}
+<div class="card" style="width: 50rem;">
+    
+    <div class="card-body">
+      <h5 class="card-title">¡Hola!</h5>
+      <p class="card-text">Bienvenido! Aquí podrás determinar calculos de tus volumenes respiratorios y compararlos para identificar tu estado.</p>
+      <a href="{{ url_for('procedimiento')}}" class="btn btn-primary">Ir a procedimientos</a>
+    </div>
+    
+<img alt="Ciencia" height="automatic" src="{{ url_for('static', filename='medi.jpg') }}" width="automatic">
+  </div>
+{% endblock %}
+
